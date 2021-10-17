@@ -1,0 +1,503 @@
+
+* {
+    
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+       box-sizing: border-box;
+}
+span{
+    color: pink;
+}
+
+/*Style Of Page One*/
+.Welcome_Page{
+    min-height: 1300px;
+    width: 100%;
+    background: url(../image/maim1.jpeg) no-repeat center fixed;
+    position: fixed;
+}
+.Welcome_Page_Cover{
+    min-height: 1300px;
+    background-color: #ffc0cb8a;
+}
+.My-Image{
+    margin-top:170px;
+}
+ img{
+    width: 220px;
+    height: 220px;
+    border: 2px solid  pink;
+    border-radius: 50%;
+    
+}
+.My-Image button ,h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+ button{
+    border: 2px solid pink;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 39px;
+    color: white;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+/*Style Of Page Tow*/
+.All-menu {
+    padding-top: 115px;
+}
+.Menu{
+    margin-bottom: 70px;
+}
+.Menu-part{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: black;
+    background-color: #eeeeee63;
+}
+.Menu-part:hover{
+    background-color: pink;
+}
+.Menu-part a{
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail{
+    border: 2px solid pink;
+}
+@media (max-width: 500px){
+    .Menu-part{
+        margin: 10px 70px 0 70px ;
+    }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+    .Menu-part{
+        margin: 10px 130px 0 130px ;
+    } 
+}
+
+/*Style Of Page Three*/
+.About-Me{
+    margin-top: 112px;
+}
+.About-Me button{
+    color: black;
+}
+.about-details{
+    border-left:2px solid pink;
+    border-right:2px solid pink;
+    
+}
+.About-Me i{
+    margin-top: -106px;
+}
+.About-Me .fa-4x {
+    font-size: 8em;
+    color: pink;
+}
+.Timeline{
+    margin-top: 60px;
+}
+.Timeline h1{
+    margin-bottom: 33px;
+}
+.Timeline span{
+    color: pink;
+}
+hr{
+    border-top: 2px solid pink;
+    width: 190px;
+}
+.width-Of-P
+{
+    width: 80%;
+    background-color:#eeeeee63;
+    padding: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: 2px solid pink;
+}
+
+.width-Of-P-Diffrent{
+    margin-left: 130px;
+    padding: 15px;
+    font-size: 24px;
+   
+}
+.width-Of-P-Diffrent p{
+    padding-left: 20px;
+}
+.Timeline img{
+  width: 50px;
+  height: 50px;
+  border: 2px solid c;
+  border-radius: 50%;
+  margin-left: -51px;
+}
+.Timeline .content h3,
+.Timeline .content p{
+ padding-left: 26px;
+}
+
+#work{
+  padding-left: 26px;
+  border-left: 2px solid pink;
+  margin-left: 18px;
+}
+.raw-tow{
+  margin-bottom: 20px;
+}
+#work2{
+  padding-right: 26px;
+  border-right: 2px solid pink;
+  margin-right: 18px;
+  float: right;
+  
+}
+  .Timeline .content2 h3,
+.Timeline .content2 p{
+ float: right;
+}
+.Timeline .content2 p{
+  padding-top: 15px;background-color: #eeeeee63;
+  border: 2px solid pink;
+}
+.Timeline .content2 h3{
+  padding-top: 33px;
+}
+.Timeline .content2 h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.Timeline .content2 img{
+  float: right;
+  margin-right: -51px;
+ }
+.raw-three .content{
+    margin-top: 20px;
+}
+@media (min-width: 768px){
+    .raw-three #work{
+        border: none;
+    }
+    .raw-three .content {
+        margin-top: 330px;
+    }
+    
+}
+#work3{
+    padding-left: 26px;
+    border-left: 2px solid pink;
+    margin-left: 18px;
+  }
+  .work{
+      margin-top: 84px;
+  }
+  .my-work{
+    background: url("../image/barandaa.jpg") ;
+  } 
+  .my-work ,.my-work2,.my-work3{
+    height: 300px;
+    font-weight: bold;
+  }
+  .my-work-cover ,.my-work-cover2 ,.my-work-cover3{
+    height: 300px;
+    background-color: #ffc0cb8a;
+  }
+  .my-work2{
+    background: url("../image/1.jpg") ;
+  }
+  .my-work3{
+    background: url("../image/Nubian.jpeg") ;
+  }
+  .my-work h2,.my-work2 h2,.my-work3 h2{
+      padding-top: 96px;
+    
+  }
+  .my-work button ,.my-work2 button ,.my-work3 button{
+      margin-top: 27px;
+  }
+  .skills{
+      margin-top:85px;
+      margin-bottom: 40px;
+  }
+  .progress{
+      height: 30PX;
+      margin-top: 40px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+.progress-bar{
+    background-color: PINK;
+    color: black;
+    font-size: 15PX;
+    font-weight: bold;
+    text-align: center;
+}
+.progress h4{
+    margin-top: 6px;
+}
+
+  /*=======================================================*/
+ /*Start Our Project Tours style*/
+ 
+ .Main-Tours{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+ }
+ .Main-Tours img{
+    width: 100%;
+    height: 550px;
+    border-radius: unset;
+ }
+ .Main-Tours iframe{
+     display: none;
+     width: 100%;
+    height: 550px;
+    margin-bottom: 20px; 
+ }
+ .Main_image {
+    width: 100%;
+    height: 550px;
+    margin-top: -300px;
+ }
+ .Main_image p{
+     color: pink ;
+     font-weight: bold;
+     font-size: 26px;
+ }
+ .Main_image button{
+    background-color: white;
+    border-color:pink;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: pink; 
+ }
+ 
+ .only img{
+     display: none;
+ }
+
+ .Tours_info{
+     overflow: hidden;
+     cursor: pointer;
+     margin-bottom: 35px;
+     border: solid  pink 3px;
+
+ }
+ .Tours_info .only{
+    width: 100%;
+    height: 100%;
+}
+.only{
+    background-color: #ffc0cb8a ;
+}
+.only p{
+  
+   padding-top: 70px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+   transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+.only p:hover{
+    overflow: visible;
+    padding-top: 80px;
+    color: white;
+}
+
+ #Tours1 .only{
+    background : url(../a/Project-coordination-management.jpg)no-repeat center  ; 
+}
+ #Tours2 .only{
+    background-image: url(../image/group-of-people-managing-projects-564x299.jpg);
+ }
+ #Tours3 .only{ 
+    background-image: url(../image/ux.jpg);
+ }
+ #Tours4 .only{
+    background-image: url(../images/gg1.jpg);
+ }
+ #Tours6 .only{
+    background-image: url(../image/s.png);
+ }
+ #Tours5 .only{
+    background-image: url(../image/barandaa.jpg);
+ }
+ #Tours7 .only{
+    background-image: url(../a/700600p546EDNmainimg-5-basic-roles-in-project-management.jpg);
+ }
+ 
+ @media(max-width:768px){
+    #Tours2 .only{
+        background-image: url(../a/group-of-people-managing-projects-564x299.jpg);
+     }
+     #Tours5 .only{
+        background-image: url(../image/barandaa.jpg);
+     }
+     #Tours3 .only{ 
+        background-image: url(../image/uxd.jpg);
+     }
+}
+ #Tours1, #Tours2 , #Tours4 , #Tours3,#Tours6,#Tours5,#Tours7{
+    height: 200px;
+    padding: 5px;
+ }
+ .social{
+     margin-top: 45px;
+     margin-bottom: 20px;
+ }
+ .social i{
+     margin: 20px;
+ }
+ .fa-4x {
+    font-size: 3em;
+}
+#whatsap .fa-4x:hover{
+    color: #25d366;
+    }
+#facebook .fa-4x:hover{
+    color: #315bb2;
+    }
+#linked .fa-4x:hover{
+    color: #315bb2;
+    }
+#gmail .fa-4x:hover{
+    color: white;
+    }
+#github .fa-4x:hover{
+    color: black;
+    }
+#github .fa-4x:hover{
+    color: black;
+    }
+#google .fa-4x:hover{
+color: red;
+}
+.baground-of-i{
+    background-color: #eeeeee63;
+    border: pink solid 2px;
+    border-radius:  3%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.baground-of-i:hover{
+    background-color: pink;
+    color: black;
+}
+.baground-of-phone{
+    background-color: #eeeeee63;
+    border: pink solid 2px;
+    border-radius:  3%;
+    margin: 20px 90px;
+}
+@media(max-width:877px){
+    .baground-of-phone{
+        margin: 20px 90px;  
+    }
+}
+.baground-of-phone i{
+    margin-top: 16px;
+}
+.baground-of-phone h3{
+    font-size: 32px;
+}
+.sroal {
+    color: #F47D25;
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+    display: none;
+}
+.sroal a{
+    color: pink;
+}
+.sroal .fa-2x {
+    font-size: 3em;
+}
+
+.last{
+    background-color: #eee;
+}
+.footer {
+    padding: 12px;
+}
+.footer h4{
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+}
+/*Loading Screen*/
+.loading-overlay{
+    background:white ;
+    color: pink;
+    position: absolute;;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.spinner {
+    margin: 200px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .cube1, .cube2 {
+    background-color: pink;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+    animation: sk-cubemove 1.8s infinite ease-in-out;
+  }
+  
+  .cube2 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  @-webkit-keyframes sk-cubemove {
+    25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+    50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+    75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+    100% { -webkit-transform: rotate(-360deg) }
+  }
+  
+  @keyframes sk-cubemove {
+    25% {
+      transform: translateX(42px) rotate(-90deg) scale(0.5);
+      -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+    } 50% {
+      transform: translateX(42px) translateY(42px) rotate(-179deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+    } 50.1% {
+      transform: translateX(42px) translateY(42px) rotate(-180deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+    } 75% {
+      transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+      -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    } 100% {
+      transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+    }
+  }
+  

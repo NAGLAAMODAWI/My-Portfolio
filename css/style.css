@@ -115,7 +115,7 @@ hr{
 }
 .width-Of-P
 {
-    width: 80%;
+    /*width: 95%;*/
     background-color:#eeeeee63;
     padding: 15px;
     font-size: 24px;
@@ -315,7 +315,7 @@ hr{
 }
 
  #Tours1 .only{
-    background : url(../a/Project-coordination-management.jpg)no-repeat center  ; 
+    background : url(../image/Project-coordination-management.jpg)no-repeat center  ; 
 }
  #Tours2 .only{
     background-image: url(../image/group-of-people-managing-projects-564x299.jpg);
@@ -324,7 +324,7 @@ hr{
     background-image: url(../image/ux.jpg);
  }
  #Tours4 .only{
-    background-image: url(../images/gg1.jpg);
+    background-image: url(../image/gg1.jpg);
  }
  #Tours6 .only{
     background-image: url(../image/s.png);
@@ -333,12 +333,12 @@ hr{
     background-image: url(../image/barandaa.jpg);
  }
  #Tours7 .only{
-    background-image: url(../a/700600p546EDNmainimg-5-basic-roles-in-project-management.jpg);
+    background-image: url(../image/700600p546EDNmainimg-5-basic-roles-in-project-management.jpg);
  }
  
  @media(max-width:768px){
     #Tours2 .only{
-        background-image: url(../a/group-of-people-managing-projects-564x299.jpg);
+        background-image: url(../image/group-of-people-managing-projects-564x299.jpg);
      }
      #Tours5 .only{
         background-image: url(../image/barandaa.jpg);
@@ -401,7 +401,7 @@ color: red;
 }
 @media(max-width:877px){
     .baground-of-phone{
-        margin: 20px 90px;  
+        margin: 20px 56px;  
     }
 }
 .baground-of-phone i{

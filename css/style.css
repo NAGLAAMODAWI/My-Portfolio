@@ -201,11 +201,11 @@ hr{
   .my-work{
     background: url("../image/barandaa.jpg") ;
   } 
-  .my-work ,.my-work2,.my-work3,.my-work4{
+  .my-work ,.my-work2,.my-work3{
     height: 300px;
     font-weight: bold;
   }
-  .my-work-cover ,.my-work-cover2 ,.my-work-cover3,.my-work-cover4{
+  .my-work-cover ,.my-work-cover2 ,.my-work-cover3{
     height: 300px;
     background-color: #ffc0cb8a;
   }
@@ -215,7 +215,7 @@ hr{
   .my-work3{
     background: url("../image/Nubian.jpeg") ;
   }
-  .my-work h2,.my-work2 h2,.my-work3 h2 ,.my-work4 h2{
+  .my-work h2,.my-work2 h2,.my-work3 h2 {
       padding-top: 96px;
     
   }
